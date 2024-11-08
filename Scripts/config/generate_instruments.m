@@ -11,10 +11,10 @@ save('./sminst_SR830.mat', 'constructor', 'inst')
 
 
 %% Generate Lake shore 330
-load('sminst_L330.mat', 'inst')
-inst.name = 'L330';
-constructor.args = {'GPIB0::12'};
-save('./sminst_L330.mat', 'constructor', 'inst')
+load('sminst_L331.mat', 'inst')
+inst.name = 'L331';
+constructor.args = {'GPIB0::20'};
+save('./sminst_L331.mat', 'constructor', 'inst')
 
 %% Generate k2400
 load('sminst_K2400.mat', 'inst') % or sminst_Keithley2400.mat

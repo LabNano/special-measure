@@ -14,7 +14,7 @@ function val = smcL331(ic, val, rate)
             switch ic(3); %Operation: 0 for read, 1 for write
 
                 case 0 %read
-                    val = query(smdata.inst(ic(1)).data.inst, 'KRDG?', '%s\n', '%f');
+                    val = query(smdata.inst(ic(1)).data.inst, 'KRDG? B', '%s\n', '%f');
 
                 otherwise
                     error('L331 driver: Operation not supported');

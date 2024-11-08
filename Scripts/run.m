@@ -1,5 +1,5 @@
 global smdata;
-load rack;
+load rack2;
 
 smopen;
 

@@ -6,7 +6,7 @@ load smdata_empty;
 inst_sr = smloadinst('SR830', [], 'agilent');
 inst_k2400 = smloadinst('k2400', [], 'agilent');
 inst_hp = smloadinst('HP34401A', [], 'agilent');
-inst_L330 = smloadinst('L330', [], 'agilent');
+inst_L330 = smloadinst('L331', [], 'agilent');
 
 smdata.inst(inst_sr).data.inst
 smdata.inst(inst_k2400).data.inst
