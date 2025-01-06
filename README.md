@@ -1,3 +1,5 @@
+[English 👈](https://github.com/LabNano/special-measure/blob/master/README_en.md)
+
 # Special Measure
 ## Instruções de uso
 **Obs: Sempre rode os arquivos a partir da pasta onde eles se localizam**
